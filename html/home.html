@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exam</title>
+    <link rel="stylesheet" href="http://47.98.45.29/exam/css/home.css"/>
+    <script type="text/javascript" src="http://47.98.45.29/exam/js/jquery.js"></script>
+    <script type="text/javascript" src="http://47.98.45.29/exam/js/echarts.min.js"></script>
+    <script type="text/javascript" src="http://47.98.45.29/exam/js/home.js"></script>
+</head>
+<body>
+<!--头部导航-->
+<header class="nav">
+    <div class="nav-container common-width">
+        <button class="logo">LOGO</button>
+        <div class="operation">
+            <div class="icon setting"></div>
+            <div class="icon notify"></div>
+            <button class="logout">Log Out</button>
+        </div>
+    </div>
+</header>
+<!--中间部分-->
+<main class="common-width main">
+    <section class="menu">
+        <div class="block">
+            <h3 class="title">Audience Overview</h3>
+            <p class="subtitle">Roseville, CA</p>
+            <div id="sliderWrap" class="slider-wrap">
+                <ul id="slider" class="slider">
+                    <li class="slider-item one"></li>
+                    <li class="slider-item two"></li>
+                    <li class="slider-item three"></li>
+                    <li class="slider-item four"></li>
+                    <li class="slider-item five"></li>
+                </ul>
+                <div class="btn next" id="next"></div>
+                <div class="btn previous" id="previous"></div>
+                <div id="counter" class="counter"></div>
+                <div id="paginationWrap" class="pagination-wrap">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="head-title" id="headTitle">
+                <button class="menu-btn" data-id="1">DASHBOARD<span class="line"></span></button>
+                <button class="menu-btn" data-id="2">PROJECTS<span class="line"></span></button>
+                <button class="menu-btn" data-id="3">CALENDAR<span class="line"></span></button>
+                <button class="menu-btn" data-id="4">MAILBOX<span class="line"></span></button>
+                <button class="menu-btn" data-id="5">SETTINGS<span class="line"></span></button>
+            </div>
+            <div class="table-data">
+                <div class="table-head">
+                    <p class="table-head-title">Support Requests</p>
+                    <button class="table-head-button">View All</button>
+                </div>
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>TIME</th>
+                            <th>USER NAME</th>
+                            <th>STATUS</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>9:45pm</td>
+                            <td>info@design.com</td>
+                            <td>
+                                <button class="table-button">Solved</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9:45pm</td>
+                            <td>info@design.com</td>
+                            <td>
+                                <button class="table-button">Solved</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="diagram common-width" id="diagram"></section>
+    <section class="common-width chart">
+        <div class="block">
+            <div id="pieChart" class="block-chart"></div>
+        </div>
+        <div class="block">
+            <div id="histogram" class="block-chart"></div>
+        </div>
+    </section>
+</main>
+<!--底部-->
+<footer class="footer">
+    <div class="footer-container common-width">
+        <div class="logo-container">
+            <button class="logo">LOGO</button>
+        </div>
+        <div class="footer-nav">
+            <ul class="footer-nav-item">
+                <li>
+                    <ul>
+                        <li>NEWS</li>
+                        <li>CHANNELS</li>
+                        <li>OVERVIEW</li>
+                        <li>TIMELINE</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>SPORT</li>
+                        <li>CULTURE</li>
+                        <li>NATURE</li>
+                        <li>MUSIC</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>WEATHER</li>
+                        <li>AUTOS</li>
+                        <li>LOCAL</li>
+                        <li>SHOP</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>FUTURE</li>
+                        <li>FOOD</li>
+                        <li>EARTH</li>
+                        <li>TV</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>TRAVEL</li>
+                        <li>RADIO</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="http://47.98.45.29/exam/js/slide.js"></script>
+</body>
+</html>
